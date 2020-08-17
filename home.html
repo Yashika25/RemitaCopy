@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
+
+    <title>Register</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark text-white" style="padding: 10px 10px 18px 10px;">
+        <a class="navbar-brand" href="#" style="margin-left: 7%; margin-top: 5px;">
+          <img src="./media/remita_logo_white.png" width="150" height="45" alt="" loading="lazy">
+        </a>
+
+        <div style="margin-right: 5%;">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">REMITA MOBILE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DEVELOPERS</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      <section id="form-section">
+      <div class="form-div">
+          <h4 class="text-center">Register with Remita</h4>
+          <h6 class="text-center">Please enter your details below</h6>
+          <div id="error" class="text-center"></div>
+            <form onsubmit="return validate()">
+                <label class="label-class">Email Address*</label>
+                <label class="label-class">Phone Number*</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                <input type="tel" name="phone" id="phone">
+
+                <label class="label-class">First Name*</label>
+                <label class="label-class">Last Name*</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name">
+                
+                <label class="label-select">The Registration is for*</label>
+                <select>
+                    <option>Please Select From Self/SME/Corporate etc</option>
+                    <option>My Personal Account</option>
+                    <option>MSME - Sole Signatory</option>
+                    <option>SME/Corporate - Multi Signatory</option>
+                    <option>Government MDA</option>
+                </select>
+
+                <button>NEXT ></button>
+            </form>
+      </section>
+
+      <footer>
+          <h3>Contact Us</h3>
+          
+        <ul id="footer-links">
+            <p>www.systemspecs.com.ng<br>
+                Plot B22, Yesufu Abiodun Oniru Road, Oniru.<br>
+                <strong>Support:</strong> +234-1-6367000, +234700-7877678<br>
+                support@remita.net<br>
+            </p>
+    
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Support and FAQs</a></li>
+
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Agents and Partners</a></li>
+            <li><a href="#">Careers</a></li>
+
+            <li><a href="#">Remita Mobile</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <br><br><br>
+          <hr>
+          <p class="text-center">Copyright © 2020 SystemSpecs. All Rights Reserved | Remita is a platform designed and developed by SystemSpecs.</p>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
